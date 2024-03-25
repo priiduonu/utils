@@ -6,6 +6,7 @@ endif
 OBJS = $(SRCS:%.cpp=%.o)
 LIB = lib$(notdir $(CURDIR)).a
 CPPFLAGS+=-g -Wall -W
+CXXFLAGS=-std=c++14
 
 lib: $(LIB)
 
